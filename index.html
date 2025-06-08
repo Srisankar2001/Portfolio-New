@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Web Design</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="./styles.css">
+	<script src="./scripts.js"></script>
+</head>
+
+<body>
+	<header>
+		<a href="#" class="logo-holder">
+			<div class="logo">S</div>
+			<div class="logo-text">Portfolio Website</div>
+		</a>
+		<nav>
+			<ul id="menu">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#skills">Skills</a>
+				</li>
+				<li>
+					<a href="#projects">Projects</a>
+				</li>
+				<li>
+					<a href="mailto:hello@adriantwarog.com" class="button">Contact Me</a>
+				</li>
+			</ul>
+			<a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+				<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+					width="24" height="24" fill="none" viewBox="0 0 24 24">
+					<path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10" />
+				</svg>
+			</a>
+		</nav>
+	</header>
+	<main>
+		<section class="hero container">
+			<div class="hero-blue">
+				<div>
+					<h1><small>Hi I'm</small>
+						Srisankar Sriharan
+					</h1>
+					<p>
+						Software Engineer based in Sri Lanka, focused on building modern web applications and solving
+						real world problems via coding. I specialize in full-stack development using technologies like
+						React, Next, Node.js, Express.js and Spring Boot, and I’m proficient in OOP, SOLID principles,
+						and writing clean, maintainable code.</span>
+					</p>
+					<div class="call-to-action">
+						<a href="./Srisankar Sriharan.pdf" class="button black">
+							View Resume
+						</a>
+						<a href="mailto:srisankar2001@gmail.com" class="button white">
+							Contact Me
+						</a>
+					</div>
+					<div class="social-links">
+						<a href="https://github.com/Srisankar2001">
+							<img src="./imgs/github.png" alt="GitHub" width="48" />
+						</a>
+						<a href="https://www.linkedin.com/in/srisankar2001">
+							<img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="hero-yellow">
+				<img src="./imgs/me.png" alt="Srisankar" width="100%" />
+			</div>
+		</section>
+		<section class="logos container">
+			<div class="marquee">
+				<div class="track">
+					<img src="./imgs/html.png" alt="HTML" width="128" />
+					<img src="./imgs/css.png" alt="CSS" width="128" />
+					<img src="./imgs/javascript.png" alt="JS" width="128" />
+					<img src="./imgs/typescript.png" alt="TS" width="128" />
+					<img src="./imgs/java.png" width="128" alt="Java" />
+					<img src="./imgs/react.png" width="128" alt="React" />
+					<img src="./imgs/nextjs.png" width="128" alt="Next JS" />
+					<img src="./imgs/nodejs.png" width="128" alt="Node JS" />
+					<img src="./imgs/expressjs.png" width="128" alt="Express JS" />
+					<img src="./imgs/nestjs.png" width="128" alt="Nest JS" />
+					<img src="./imgs/spring.png" width="128" alt="Spring Boot" />
+					<img src="./imgs/mysql.png" width="128" alt="MySql" />
+					<img src="./imgs/mongodb.png" width="128" alt="MongoDB" />
+					<img src="./imgs/vscode.png" width="128" alt="VS Code" />
+					<img src="./imgs/intelij.png" width="128" alt="Intelij" />
+					<img src="./imgs/git.png" width="128" alt="Git" />
+					<img src="./imgs/html.png" alt="HTML" width="128" />
+					<img src="./imgs/css.png" alt="CSS" width="128" />
+					<img src="./imgs/javascript.png" alt="JS" width="128" />
+					<img src="./imgs/typescript.png" alt="TS" width="128" />
+					<img src="./imgs/java.png" width="128" alt="Java" />
+					<img src="./imgs/react.png" width="128" alt="React" />
+					<img src="./imgs/nextjs.png" width="128" alt="Next JS" />
+					<img src="./imgs/nodejs.png" width="128" alt="Node JS" />
+					<img src="./imgs/expressjs.png" width="128" alt="Express JS" />
+					<img src="./imgs/nestjs.png" width="128" alt="Nest JS" />
+					<img src="./imgs/spring.png" width="128" alt="Spring Boot" />
+					<img src="./imgs/mysql.png" width="128" alt="MySql" />
+					<img src="./imgs/mongodb.png" width="128" alt="MongoDB" />
+					<img src="./imgs/vscode.png" width="128" alt="VS Code" />
+					<img src="./imgs/intelij.png" width="128" alt="Intelij" />
+					<img src="./imgs/git.png" width="128" alt="Git" />
+				</div>
+			</div>
+		</section>
+		<section id="skills" class="skills container">
+			<h2>
+				<small>About Me</small>
+				Skills
+			</h2>
+			<div class="holder-blue">
+				<div class="left-column">
+					<h3>Frontend</h3>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>TypeScript</li>
+						<li>React</li>
+						<li>Next JS</li>
+					</ul>
+					<h3>Backend</h3>
+					<ul>
+						<li>Node JS</li>
+						<li>Express JS</li>
+						<li>Nest JS</li>
+						<li>Java</li>
+						<li>Spring Boot</li>
+					</ul>
+					<h3>Database</h3>
+					<ul>
+						<li>MySQL</li>
+						<li>MongoDB</li>
+					</ul>
+				</div>
+				<div class="right-column">
+					<h3>A bit about me</h3>
+					<p>
+						Hi, I'm Srisankar — an enthusiastic and driven final-year BSc (Hons) Software Engineering
+						student
+						at the University of Kelaniya with hands-on experience in full-stack development and RESTful API
+						design.
+					</p>
+					<p>
+						I completed a 6-month internship at PLT, contributing to backend development and supporting
+						multilingual
+						web applications. I’m skilled in modern frameworks and technologies including React, Next.js,
+						Node.js, Express.js, and Spring Boot, with growing proficiency in MySQL and MongoDB. Experienced
+						in Agile workflows and Git for version control. A quick learner with strong problem-solving and
+						collaboration skills, eager to contribute to impactful, real-world software solutions.
+					</p>
+
+				</div>
+			</div>
+		</section>
+		<section class="work-experience container">
+			<h2>
+				Work Experience
+			</h2>
+			<div class="jobs">
+				<article>
+					<figure>
+						<div>
+							<a href="https://thepolarlights.com">
+								<img src="./imgs/company.jpg" alt="The Polar Lights" width="100%" />
+								<figcaption>
+									Polar Lights
+								</figcaption>
+							</a>
+						</div>
+					</figure>
+					<h3>Full-stack Developer (Intern)</h3>
+					<div>Oct 2024 - Mar 2025</div>
+					<p>My role involved developing and optimizing
+						RESTful APIs, implementing secure authentication, and ensuring multilingual support in
+						backend processes.
+					</p>
+					<a href="./Service Letter.pdf" class="button black">
+						View Service Letter
+					</a>
+				</article>
+			</div>
+		</section>
+		<section id="projects" class="bento container">
+			<h2>
+				<small>
+					Previous
+				</small>
+				Completed Projects
+			</h2>
+			<div class="bento-grid">
+				<a href="https://github.com/Srisankar2001/hospital" class="bento-item">
+					<img src="./imgs/doctor.jpg" alt="Hospital" width="100%" />
+					<div class="overlay">
+						<h3>Hospital Management & Booking System</h3>
+						<p class="technologies">React JS, Node JS, Express JS, MongoDB, JWT</p>
+						<p class="description">Developed a hospital management and booking system to unify hospital
+							management and appointment scheduling, featuring distinct roles: Admins for managing
+							departments and scheduling, Users for booking and cancelling appointments, and Doctors for
+							real-time appointment management.</p>
+						<span class="source-link">Visit Source Code</span>
+					</div>
+				</a>
+				<a href="https://github.com/Srisankar2001/parking" class="bento-item">
+					<img src="./imgs/parking.jpg" alt="Parking" width="100%" />
+					<div class="overlay">
+						<h3>Real - Time Parking Management System</h3>
+						<p class="technologies">React JS , Node JS , Express , MongoDB, JWT, Chart JS</p>
+						<p class="description">Created a real-time parking management system designed to enhance parking
+							space utilization and simplify management. The system offers live space monitoring,
+							automatic fee calculation, and secure user authentication, along with dynamic data
+							visualization to optimize management and user experience.</p>
+						<span class="source-link">Visit Source Code</span>
+					</div>
+				</a>
+				<a href="https://github.com/Srisankar2001/Dress" class="bento-item">
+					<img src="./imgs/cloth.jpg" alt="Clothing Store" width="100%" />
+					<div class="overlay">
+						<h3>Ermine - Custom Cloth Tailoring Shop</h3>
+						<p class="technologies">Next JS, Node JS, Express JS, MySQL, JWT, Recharts</p>
+						<p class="description">Developed a custom dress order platform to streamline dress customization
+							and
+							order management, featuring distinct roles: Admins for managing employees, assigning orders,
+							and
+							overseeing platform operations; Employees for accepting, cancelling, or completing assigned
+							orders; and Users for placing, tracking, and managing their orders, with a dynamic dashboard
+							powered by Recharts for real-time insights.
+						</p>
+						<span class="source-link">Visit Source Code</span>
+					</div>
+				</a>
+				<a href="https://github.com/Srisankar2001/Expense-Tracker" class="bento-item">
+					<img src="./imgs/expense.jpg" alt="Expense" width="100%" />
+					<div class="overlay">
+						<h3>Group Expense Tracker</h3>
+						<p class="technologies">React JS, Node JS, Express JS, MySQL, JWT </p>
+						<p class="description">Developed a group expense tracking web application aimed at simplifying
+							shared financial management during group activities. The system allows users to add friends,
+							create events, include members, and log expenses with ease. It features an automated budget
+							summary to transparently display balances, helping users track who owes what. Designed with
+							usability and clarity in mind, the application enhances coordination and reduces the stress
+							of manual expense splitting.</p>
+						<span class="source-link">Visit Source Code</span>
+					</div>
+				</a>
+				<a href="https://github.com/Srisankar2001/billing-System" class="bento-item">
+					<img src="./imgs/billing.jpg" alt="Billing" width="100%" />
+					<div class="overlay">
+						<h3>Billing Web Application</h3>
+						<p class="technologies">React JS, Node JS, Express JS, MySQL, JWT </p>
+						<p class="description">Built a billing application to optimize retail operations, incorporating
+							secure role-based access: Admins oversee user and product management, Cashiers manage
+							billing,
+							and Inventory Managers maintain product stock. This system improves both efficiency and
+							security.</p>
+						<span class="source-link">Visit Source Code</span>
+					</div>
+				</a>
+				<a href="https://github.com/Srisankar2001/vote" class="bento-item">
+					<img src="./imgs/vote.jpg" alt="Voting" width="100%" />
+					<div class="overlay">
+						<h3>Voting System (Backend)</h3>
+						<p class="technologies">Nest JS, MySQL, JWT </p>
+						<p class="description">Developed a secure and scalable backend voting system to ensure fair and
+							transparent elections. The system features user authentication with role-based access
+							control, real-time vote casting and counting, audit logging for accountability, and
+							comprehensive result analytics. Designed for reliability and data integrity, it streamlines
+							the voting process while safeguarding against manipulation.</p>
+						<span class="source-link">Visit Source Code</span>
+					</div>
+				</a>
+			</div>
+		</section>
+	</main>
+</body>
+
+</html>
